@@ -13,8 +13,9 @@ int temp = *a;
 int main() {
     int a, b;
     int *pa = &a, *pb = &b;
-    cin>> &a, &b;
+    cin>>a>>b;
     update(pa, pb);
-    cout<< a, b);
+    cout<<a<<endl<<b;
+
     return 0;
 }
